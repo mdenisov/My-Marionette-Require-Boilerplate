@@ -12,10 +12,7 @@ require.config({
         "backbone.wreqr":"../vendor/bower/backbone.wreqr/lib/backbone.wreqr",
         "backbone.babysitter":"../vendor/bower/backbone.babysitter/lib/backbone.babysitter",
         "handlebars":"../vendor/bower/handlebars/handlebars",
-//        "hbs":"../vendor/bower/hbs/hbs",
-//        "i18nprecompile":"../vendor/bower/hbs/hbs/i18nprecompile",
-        "hbs":"../vendor/bower/hbs",
-        "i18nprecompile":"../vendor/bower/i18nprecompile",
+        "hbs":"../vendor/bower/hbs/hbs",
         "json2":"../vendor/bower/json2",
 
         // Plugins
@@ -45,6 +42,7 @@ require.config({
     // hbs config - must duplicate in Gruntfile.js Require build
     locale: 'ru_ru',
     hbs: {
+        i18n: true,
         templateExtension: "html",
         helperDirectory: "templates/helpers/",
         i18nDirectory: "templates/i18n/",
