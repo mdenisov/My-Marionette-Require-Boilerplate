@@ -1,0 +1,23 @@
+{
+  "name": "backbone-boilerplate",
+
+  "dependencies": {
+    "html5-boilerplate": "~4.3.0",
+    "almond": "~0.2.9",
+    "lodash": "latest",
+    "backbone": "latest",
+    "backbone.marionette": "latest",
+    "Backbone.validateAll": "latest",
+    "handlebars": "latest",
+    "hbs": "latest",
+    "json2":"latest",
+    "jquery": "~2.1.0",
+    "requirejs": "~2.1.10",
+    "requirejs-text": "latest",
+    "qunit": "~1.14.0",
+    "jasmine": "~2.0.0",
+    "mocha": "~1.17.1",
+    "chai": "~1.9.0",
+    "sinon": "~1.8.2"
+  }
+}

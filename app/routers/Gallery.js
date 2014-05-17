@@ -1,0 +1,14 @@
+define([
+    'marionette'
+], function (Marionette) {
+    'use strict';
+
+    return Marionette.AppRouter.extend({
+
+        appRoutes: {
+            'gallery': 'showPage',
+            'gallery/:pageName': 'showPage'
+        }
+
+    });
+});
